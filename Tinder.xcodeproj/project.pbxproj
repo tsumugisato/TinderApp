@@ -3,24 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881E5AB926A981190077266A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881E5AB826A981190077266A /* CardView.swift */; };
+		882D89BC268A1F5B007870F4 /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D89BB268A1F5B007870F4 /* TopControlView.swift */; };
+		884B732B2698403600BC086B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 884B732A2698403600BC086B /* RxSwift */; };
+		884B732D2698403600BC086B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 884B732C2698403600BC086B /* RxCocoa */; };
+		884B732F2698403600BC086B /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 884B732E2698403600BC086B /* RxRelay */; };
+		884B73492699AF8B00BC086B /* UIView・Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B73482699AF8B00BC086B /* UIView・Extension.swift */; };
+		887DEE0E268A2585003101D9 /* BottomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887DEE0D268A2585003101D9 /* BottomControlView.swift */; };
+		88A3C5DC26BE527B00824FF0 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3C5DB26BE527B00824FF0 /* UIColor-Extension.swift */; };
+		88A3C62426C116B700824FF0 /* CardInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3C62326C116B700824FF0 /* CardInfoLabel.swift */; };
+		88A3C62626C17D3F00824FF0 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3C62526C17D3F00824FF0 /* UIButton-Extension.swift */; };
+		88A3C62826C17F1800824FF0 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3C62726C17F1800824FF0 /* CardImageView.swift */; };
+		88A93D3D2696E3AE009F3CEE /* UIImage-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A93D3C2696E3AE009F3CEE /* UIImage-Extension.swift */; };
 		88B57A6F26872DD40014D9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B57A6E26872DD40014D9C4 /* AppDelegate.swift */; };
 		88B57A7126872DD40014D9C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B57A7026872DD40014D9C4 /* SceneDelegate.swift */; };
-		88B57A7326872DD40014D9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B57A7226872DD40014D9C4 /* ViewController.swift */; };
-		88B57A7626872DD40014D9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B57A7426872DD40014D9C4 /* Main.storyboard */; };
+		88B57A7326872DD40014D9C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B57A7226872DD40014D9C4 /* HomeViewController.swift */; };
 		88B57A7826872DD50014D9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B57A7726872DD50014D9C4 /* Assets.xcassets */; };
 		88B57A7B26872DD50014D9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B57A7926872DD50014D9C4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881E5AB826A981190077266A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		882D89BB268A1F5B007870F4 /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
+		884B73482699AF8B00BC086B /* UIView・Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView・Extension.swift"; sourceTree = "<group>"; };
+		887DEE0D268A2585003101D9 /* BottomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlView.swift; sourceTree = "<group>"; };
+		88A3C5DB26BE527B00824FF0 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		88A3C62326C116B700824FF0 /* CardInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoLabel.swift; sourceTree = "<group>"; };
+		88A3C62526C17D3F00824FF0 /* UIButton-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		88A3C62726C17F1800824FF0 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		88A93D3C2696E3AE009F3CEE /* UIImage-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
 		88B57A6B26872DD40014D9C4 /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B57A6E26872DD40014D9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88B57A7026872DD40014D9C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88B57A7226872DD40014D9C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88B57A7526872DD40014D9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88B57A7226872DD40014D9C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88B57A7726872DD50014D9C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B57A7A26872DD50014D9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88B57A7C26872DD50014D9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,15 +50,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884B732F2698403600BC086B /* RxRelay in Frameworks */,
+				884B732D2698403600BC086B /* RxCocoa in Frameworks */,
+				884B732B2698403600BC086B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88A93D0D2694BCB4009F3CEE /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		88A93D3B2696E344009F3CEE /* Extesions */ = {
+			isa = PBXGroup;
+			children = (
+				88A93D3C2696E3AE009F3CEE /* UIImage-Extension.swift */,
+				884B73482699AF8B00BC086B /* UIView・Extension.swift */,
+				88A3C5DB26BE527B00824FF0 /* UIColor-Extension.swift */,
+				88A3C62526C17D3F00824FF0 /* UIButton-Extension.swift */,
+			);
+			path = Extesions;
+			sourceTree = "<group>";
+		};
 		88B57A6226872DD40014D9C4 = {
 			isa = PBXGroup;
 			children = (
+				88A93D3B2696E344009F3CEE /* Extesions */,
+				88A93D0D2694BCB4009F3CEE /* image */,
+				88B57A852687318A0014D9C4 /* ViewControllers */,
+				88B57A82268730F20014D9C4 /* Views */,
 				88B57A6D26872DD40014D9C4 /* Tinder */,
 				88B57A6C26872DD40014D9C4 /* Products */,
 			);
@@ -58,13 +102,31 @@
 			children = (
 				88B57A6E26872DD40014D9C4 /* AppDelegate.swift */,
 				88B57A7026872DD40014D9C4 /* SceneDelegate.swift */,
-				88B57A7226872DD40014D9C4 /* ViewController.swift */,
-				88B57A7426872DD40014D9C4 /* Main.storyboard */,
 				88B57A7726872DD50014D9C4 /* Assets.xcassets */,
 				88B57A7926872DD50014D9C4 /* LaunchScreen.storyboard */,
 				88B57A7C26872DD50014D9C4 /* Info.plist */,
 			);
 			path = Tinder;
+			sourceTree = "<group>";
+		};
+		88B57A82268730F20014D9C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				887DEE0D268A2585003101D9 /* BottomControlView.swift */,
+				881E5AB826A981190077266A /* CardView.swift */,
+				882D89BB268A1F5B007870F4 /* TopControlView.swift */,
+				88A3C62326C116B700824FF0 /* CardInfoLabel.swift */,
+				88A3C62726C17F1800824FF0 /* CardImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88B57A852687318A0014D9C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88B57A7226872DD40014D9C4 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,11 @@
 			dependencies = (
 			);
 			name = Tinder;
+			packageProductDependencies = (
+				884B732A2698403600BC086B /* RxSwift */,
+				884B732C2698403600BC086B /* RxCocoa */,
+				884B732E2698403600BC086B /* RxRelay */,
+			);
 			productName = Tinder;
 			productReference = 88B57A6B26872DD40014D9C4 /* Tinder.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 88B57A6226872DD40014D9C4;
+			packageReferences = (
+				884B73292698403600BC086B /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 88B57A6C26872DD40014D9C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +196,6 @@
 			files = (
 				88B57A7B26872DD50014D9C4 /* LaunchScreen.storyboard in Resources */,
 				88B57A7826872DD50014D9C4 /* Assets.xcassets in Resources */,
-				88B57A7626872DD40014D9C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +206,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B57A7326872DD40014D9C4 /* ViewController.swift in Sources */,
+				887DEE0E268A2585003101D9 /* BottomControlView.swift in Sources */,
+				88A93D3D2696E3AE009F3CEE /* UIImage-Extension.swift in Sources */,
+				88A3C62426C116B700824FF0 /* CardInfoLabel.swift in Sources */,
+				884B73492699AF8B00BC086B /* UIView・Extension.swift in Sources */,
+				88B57A7326872DD40014D9C4 /* HomeViewController.swift in Sources */,
+				88A3C5DC26BE527B00824FF0 /* UIColor-Extension.swift in Sources */,
 				88B57A6F26872DD40014D9C4 /* AppDelegate.swift in Sources */,
 				88B57A7126872DD40014D9C4 /* SceneDelegate.swift in Sources */,
+				881E5AB926A981190077266A /* CardView.swift in Sources */,
+				88A3C62626C17D3F00824FF0 /* UIButton-Extension.swift in Sources */,
+				88A3C62826C17F1800824FF0 /* CardImageView.swift in Sources */,
+				882D89BC268A1F5B007870F4 /* TopControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		88B57A7426872DD40014D9C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88B57A7526872DD40014D9C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88B57A7926872DD50014D9C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -339,6 +409,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		884B73292698403600BC086B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		884B732A2698403600BC086B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 884B73292698403600BC086B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		884B732C2698403600BC086B /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 884B73292698403600BC086B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		884B732E2698403600BC086B /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 884B73292698403600BC086B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88B57A6326872DD40014D9C4 /* Project object */;
 }
