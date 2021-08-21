@@ -10,12 +10,12 @@ import UIKit
 class CardInfoLabel:UILabel{
     
     //nopeとgoodのラベル
-    init(frame: CGRect,labelText:String,labelColor:UIColor) {
-        super.init(frame: frame)
+    init(text:String,textColor:UIColor) {
+        super.init(frame: .zero)
         
         font = .boldSystemFont(ofSize:45)
-        text = labelText
-        textColor = labelColor
+        self.text = text//ラベルのテキストと、引数のテキストで識別するためにselfが必要。
+        self.textColor = textColor
         
         layer.borderWidth = 3
         layer.borderColor = UIColor.rgb(red:222,green:110,blue:110).cgColor
@@ -25,11 +25,11 @@ class CardInfoLabel:UILabel{
         alpha = 0
     }
     
-    init(frame:CGRect,labelText:String,labelFont:UIFont){
-        super.init(frame: frame)
-        font = labelFont
-        textColor = .white
-        text = labelText
+    init(text:String,font:UIFont){
+        super.init(frame:.zero)
+        self.font = font
+        self.textColor = .white
+        self.text = text
     }
     
     required init?(coder: NSCoder) {

@@ -31,15 +31,15 @@ class CardView:UIView{
     
     private let infoButton = UIButton(type:.system).createCardInfoButton()
     
-    private let nameLabel = CardInfoLabel(frame: .zero, labelText: "Big-Kasumi", labelFont: .systemFont(ofSize: 40, weight: .heavy))
-    private let residenceLabel = CardInfoLabel(frame: .zero, labelText: "日本、山口", labelFont: .systemFont(ofSize:20,weight:.regular))
-    private let introductionLabel = CardInfoLabel(frame: .zero, labelText: "卓球が大好きです", labelFont: .systemFont(ofSize: 25, weight: .regular))
+    private let nameLabel = CardInfoLabel(text: "Big-Kasumi", font: .systemFont(ofSize: 40, weight: .heavy))
+    private let residenceLabel = CardInfoLabel(text: "日本、山口", font: .systemFont(ofSize:20,weight:.regular))
+    private let introductionLabel = CardInfoLabel(text: "卓球が大好きです", font: .systemFont(ofSize: 25, weight: .regular))
     
-    private let goodLabel = CardInfoLabel(frame: .zero, labelText: "GOOD", labelColor: .rgb(red: 137, green: 223, blue: 86))
+    private let goodLabel = CardInfoLabel(text: "GOOD", textColor: .rgb(red: 137, green: 223, blue: 86))
 
-    private let nopeLabel = CardInfoLabel(frame: .zero, labelText: "NOPE", labelColor: .rgb(red: 222, green: 110, blue: 110))
+    private let nopeLabel = CardInfoLabel(text: "NOPE", textColor: .rgb(red: 222, green: 110, blue: 110))
     
-    private let hobbyLabel = CardInfoLabel(frame: .zero, labelText: "卓球女子日本代表", labelFont: .systemFont(ofSize:25,weight:.regular))
+    private let hobbyLabel = CardInfoLabel(text: "卓球女子日本代表", font: .systemFont(ofSize:25,weight:.regular))
     
 //        let resiedenceLabel:UILabel = {
 //        let label = UILabel()
