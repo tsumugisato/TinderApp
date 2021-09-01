@@ -72,7 +72,6 @@ class BottomButtonView: UIView {
         fatalError("init(corder:) has not been implemented")
     }
 }
-
 class BottomButton :UIButton {
     override var isHighlighted: Bool {
         didSet{

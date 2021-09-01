@@ -19,7 +19,6 @@ class HomeViewController: UIViewController {
         let stackView = UIStackView(arrangedSubviews: [topControlView,cardView,bottomControlView])
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical//縦
-    
         
         self.view.addSubview(stackView)
         
